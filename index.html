@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Defaults >>>> Height : 200px  Width : 200px  Radius : 100px</h4>
+    <div class="board">
+        <div class="round"></div>
+    </div>
+    <div>
+        Height: <input type="number" id="height" value="0" onchange="changeHeight(this.value)"> Width: <input type="number" value="0" id="width" onchange="changeWidth(this.value)"> Radius: <input type="number" value="0" id="radius" onchange="changeRadius(this.value)"><br><br>
+        <button id="aqua" onclick="colorChange(0)">Aqua</button>
+        <button id="green" onclick="colorChange(1)">Green</button>
+        <button id="red" onclick="colorChange(2)">Red</button>
+        <button id="yellow" onclick="colorChange(3)">Yellow</button>
+        <button id="blue" onclick="colorChange(4)">Blue</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
